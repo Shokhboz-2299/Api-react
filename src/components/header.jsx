@@ -8,9 +8,9 @@ function Header({ color, setColor }) {
   }
   return (
     <>
-      <header className="container">
-        <h1 className="text-center text-white mt-4">Users API</h1>
-        <select onChange={hundleSetTheme}>
+      <header className={color}>
+        <h1 className={`text-center ${color}  pt-4`}>Users API</h1>
+        <select className = {`selectStyle ${color}`} onChange={hundleSetTheme}>
           <option value="light">light</option>
           <option value="dark">dark</option>
         </select>

@@ -1,13 +1,18 @@
 body {
-  background-color: #3f3f3f;
+  margin: 0;
+  padding: 0;
 }
-
 .card-list {
   background-color: rgb(36, 241, 36);
   margin: 0 5px;
 }
 
-.card-text-title {
-  font-size: 16px;
-  font-weight: bold;
+.light {
+  background-color: #bbb;
+  color: #3f3f3f;
+}
+
+.dark {
+  background-color: #3f3f3f;
+  color: #fff;
 }

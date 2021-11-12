@@ -17,8 +17,8 @@ function App() {
   return (
     <>
       <Header color = {theme} setColor = {setTheme} />
-      <main className="container">
-        {users.length > 0 && <ul className="list-unstyled d-flex flex-wrap justify-content-around">
+      <main className={` ${theme}`}>
+        {users.length > 0 && <ul className="list-unstyled container d-flex flex-wrap justify-content-around m-0">
           {users.map(user => (
             <li className="card-list card col-md-3 my-3" key={user.id}>
               <div className="card-body">
